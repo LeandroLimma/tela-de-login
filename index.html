@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudyCoding</title>
+    <!-- === Arquivo CSS === -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- === Ícone da Página === -->
+    <link rel="icon" type="image/png" href="./image/logo.png"/>
+  </head>
+  <body>
+    <main>
+      <div class="box">
+        <div class="inner-box">
+          <div class="forms-wrap">
+            <form action="index.html" autocomplete="off" class="sign-in-form">
+              <div class="logo">
+                <img src="./image/logo.png" alt="studycoding" />
+                <h4>StudyCoding</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Bem vindo</h2>
+                <h6>Ainda não possui uma conta?</h6>
+                <a href="#" class="toggle">Criar conta</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Usuário</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Senha</label>
+                </div>
+
+                <input type="submit" value="Entrar" class="sign-btn" />
+
+                <p class="text">
+                  Esqueceu sua senha ou seus detalhes de login?
+                  <a href="#">Obtenha ajuda</a> para fazer o login
+                </p>
+              </div>
+            </form>
+
+            <form action="index.html" autocomplete="off" class="sign-up-form">
+              <div class="logo">
+                <img src="./image/logo.png" alt="studycoding" />
+                <h4>StudyCoding</h4>
+              </div>
+
+              <div class="heading">
+                <h2>Criar sua conta</h2>
+                <h6>Já possui uma conta?</h6>
+                <a href="#" class="toggle">Login</a>
+              </div>
+
+              <div class="actual-form">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Usuário</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="email"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>E-mail</label>
+                </div>
+
+                <div class="input-wrap">
+                  <input
+                    type="password"
+                    minlength="4"
+                    class="input-field"
+                    autocomplete="off"
+                    required
+                  />
+                  <label>Senha</label>
+                </div>
+
+                <input type="submit" value="Criar conta" class="sign-btn" />
+
+                <p class="text">
+                  Ao me inscrever, concordo com os
+                  <a href="#">Termos e Serviços</a> e
+                  <a href="#">Política de privacidade</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <div class="carousel">
+            <div class="images-wrapper">
+              <img src="./image/image1.png" class="image img-1 show" alt="" />
+              <img src="./image/image2.png" class="image img-2" alt="" />
+              <img src="./image/image3.png" class="image img-3" alt="" />
+            </div>
+
+            <div class="text-slider">
+              <div class="text-wrap">
+                <div class="text-group">
+                  <h2>Crie seus próprios cursos</h2>
+                  <h2>Personalize como quiser</h2>
+                  <h2>Convide seus alunos</h2>
+                </div>
+              </div>
+
+              <div class="bullets">
+                <span class="active" data-value="1"></span>
+                <span data-value="2"></span>
+                <span data-value="3"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Javascript file -->
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
